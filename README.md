@@ -71,3 +71,11 @@ Ideally, G should create diverse outputs. But if it finds a specific trick that 
 
     💡 Weight Clipping
     Used in WGAN to maintain the Lipschitz constraint of the critic by clipping its weights after each update. Helps improve training stability, but can limit optimizer effectiveness if overused.
+
+
+    spectral Norm: The spectral norm of a matrix is defined as its largest singular value.
+    
+  Normalization: Spectral normalization normalizes the weight matrix of a layer by dividing it by its spectral norm. 
+  
+ Lipschitz Constant: By normalizing the weights, spectral normalization helps to control the Lipschitz constant of the layer, which is a measure of how much the output of the layer can change in response to small changes in the input.
+
