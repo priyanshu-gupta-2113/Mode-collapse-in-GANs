@@ -1,6 +1,7 @@
 1. Standard GAN Loss (Vanilla GAN Loss)
 
 This is the original GAN loss introduced by Goodfellow et al. (2014). It is based on the binary cross-entropy loss.
+
 1.1 Discriminator Loss (D)
 
 The discriminator is trained to maximize the probability of correctly classifying real and fake samples.
@@ -31,6 +32,8 @@ Vanishing gradients problem ‚Üí When the discriminator becomes too strong, log‚Å
 2. Non-Saturating GAN Loss (NS-GAN)
 
 This is an improved version of the Standard GAN Loss designed to avoid vanishing gradients.
+
+
 2.1 Generator Loss (G)
 ![image](https://github.com/user-attachments/assets/615d7186-7125-4ad4-acef-0e2a7daf6e2c)
 
